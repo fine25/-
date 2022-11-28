@@ -1,0 +1,12 @@
+使用库函数qsort
+声明：
+void qsort( 
+            void *base,
+           size_t num,
+           size_t width,
+           int (*cmp)(const void *e1, const void *e2)
+            )
+ 其中cmp比较两个元素大小
+ 如果元素1>元素2  返回>0
+  如果元素1<元素2  返回<0
+   如果元素1=元素2  返回 0
